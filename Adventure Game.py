@@ -1,6 +1,11 @@
 import random
 import time
 
+class BountyHunter:
+
+    def __init_(self,name):
+        self.name = name
+
 def displayIntro():
     print("You have finally killed the rare Noah Mousseau, it took you a year")
     print("you are on your way home and come to crossroads you dont know which to take, one path leads home")
