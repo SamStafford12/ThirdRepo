@@ -1,7 +1,8 @@
 import random
 import time
-
-class BountyHunter:
+class Person:
+    def
+class BountyHunter(Person):
 
     def __init_(self,name):
         self.name = name
@@ -35,9 +36,9 @@ def checkPath(chosenPath):
         print("The chicken pocks was just a attack from your home village they didnt recognize you!")
         print("Welcome home bitch!")
     else:
-        print("An extremely energetic burst of beavers jump out of you")
-        print("causing all of the atoms in your body to dissociate")
-        print("there is no record left of your existence except for the 200 beavers.")
+        print("A wild Thomas Bastis Jumps out of a bush")
+        print("You get absolutely fucked")
+        print("there is no record left of your existence except for the head of Noah Mousseau.")
 
 
 playAgain = "yes"
