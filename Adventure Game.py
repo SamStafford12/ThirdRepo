@@ -1,12 +1,34 @@
 import random
 import time
+
+class Random:
+    def dice(num):
+        dice=randint(1,num)
+        return dice
+    
 class Person:
-    def
-class BountyHunter(Person):
 
-    def __init_(self,name):
-        self.name = name
+    def __init__(self,life,damage,maxdamage,maxlife):
+        self.life=life
+        self.damage=damage
+        self.maxdamage-maxdamage
+        self.maxlife=maxlife
 
+class Bountyhunter(Person):
+
+    def __init__(self):
+        super().__init__(life=100,damage=50,maxdamage=50,maxlife=10)
+
+class Thomas(Person):
+
+    def __init__(self):
+        super().__init__(life=815,damage=4000,maxdamage=4000,maxlife=815)
+
+class Noah(Person):
+
+    def __init__(self):
+        super().__init__(life=69,damage=11,maxdamage=11,maxlife=69)
+        
 def displayIntro():
     print("You have finally killed the rare Noah Mousseau, it took you a year")
     print("you are on your way home and come to crossroads you dont know which to take, one path leads home")
@@ -26,14 +48,14 @@ def checkPath(chosenPath):
     time.sleep(2)
     print("there's a random shack nearby that looks familiar, that must be a good sign...")
     time.sleep(2)
-    print("But your skin begins breakout with monsterous chicken pocks...")
+    print("You might be close.")
     print()
     time.sleep(2)
 
     correctPath = random.randint(1, 2)
 
     if chosenPath == str(correctPath):
-        print("The chicken pocks was just a attack from your home village they didnt recognize you!")
+        print("You come over a hilltop and you see your hometown!")
         print("Welcome home bitch!")
     else:
         print("A wild Thomas Bastis Jumps out of a bush")
