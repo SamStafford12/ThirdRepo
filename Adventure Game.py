@@ -1,10 +1,8 @@
 import random
 import time
 
-class Random:
-    def dice(num):
-        dice=randint(1,num)
-        return dice
+def die():
+    return random.randint(1,6)
     
 class Person:
 
@@ -56,11 +54,23 @@ def checkPath(chosenPath):
 
     if chosenPath == str(correctPath):
         print("You come over a hilltop and you see your hometown!")
-        print("Welcome home bitch!")
+        time.sleep(2)
+        print("Welcome home")
+        time.sleep(2)
+        print("You now are a famous hero for killing Noah and bringing his head back")
+        
     else:
-        print("A wild Thomas Bastis Jumps out of a bush")
-        print("You get absolutely fucked")
-        print("there is no record left of your existence except for the head of Noah Mousseau.")
+        print("Not good you see Thomas Bastis in a bush")
+        time.sleep(2)
+        print("you think to yourself how you want to go about this")
+        time.sleep(2)
+        print("Thomas spots you contemplating and springs towards you")
+        x = die()
+        if x > 1:
+            print("You got raped by Thomas Bastis")
+        else:
+            print("You magically killed thomas you are now a famous hero.")
+
 
 
 playAgain = "yes"
